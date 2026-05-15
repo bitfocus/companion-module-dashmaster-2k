@@ -1,0 +1,28 @@
+{
+	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"id": "dashmaster-2k",
+	"name": "dashmaster-2k",
+	"type": "connection",
+	"shortname": "Dashmaster 2k",
+	"description": "Control Dashmaster 2k dashboards and devices via the public HTTP API",
+	"version": "1.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-dashmaster-2k.git",
+	"bugs": "https://github.com/bitfocus/companion-module-dashmaster-2k/issues",
+	"maintainers": [
+		{
+			"name": "John Barker",
+			"email": "john@heretorecord.com"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "2.0.4",
+		"entrypoint": "../src/index.js"
+	},
+	"manufacturer": "Dashmaster 2k",
+	"products": ["Dashmaster 2k"],
+	"keywords": ["Dashboard", "Display", "HTTP"]
+}
